@@ -87,13 +87,23 @@
 }
 
 /* ESERCIZIO 10 */
-@keyframes gira {
+@keyframes gira-10 {
     0%{
         transform: rotate(1turn);
     }
 }
 
 .ex-10-icon {
-    animation: gira 1s linear infinite;
+    animation: gira-10 1s linear infinite;
 }
 
+/* ESERCIZIO 11 */
+@keyframes gira-11{
+    0%{ transform: rotate(0); }
+    90%{ transform: rotate(270deg); }
+    100%{ transform: rotate(0); }
+}
+
+.ex-11-icon:hover{
+    animation: gira-11 2s linear ;
+}
