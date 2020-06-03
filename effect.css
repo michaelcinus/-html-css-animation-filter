@@ -128,3 +128,30 @@
 .ex-12-button:hover .ex-12-bottom-white {
     animation: muovi-12-bottom 2s linear;
 }
+
+/* ESERCIZIO 13 */
+@keyframes muovi-13-top{
+    0%{ left: 10%; top: -10px; }
+    20%{left: calc(100% - 30px); top: -10px;}
+    50%{left: calc(100% - 30px); top: 100%;}
+    70%{ left: 0; top: 100%;}
+    90%{left: -15px; top: -10px;}
+    100%{ left: 10%; top: -10px; }
+}
+
+@keyframes muovi-13-bottom{
+    0%{ right: 10%; bottom: -10px; }
+    20%{right: calc(100% - 30px); bottom: -10px;}
+    50%{right: calc(100% - 30px); bottom: 100%;}
+    70%{right: 0; bottom: 100%;}
+    90%{right: -15px; bottom: -10px;}
+    100%{right: 10%; bottom: -10px; }
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: muovi-13-top 2s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: muovi-13-bottom 2s linear;
+}
