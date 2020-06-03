@@ -107,3 +107,24 @@
 .ex-11-icon:hover{
     animation: gira-11 2s linear ;
 }
+
+/* ESERCIZIO 12 */
+@keyframes muovi-12-top{
+    0%{ left: 10%;}
+    75%{ left: calc(100% - 60px);}
+    100%{left: 10%;}
+}
+
+@keyframes muovi-12-bottom{
+    0%{ right: 10%;}
+    75%{ right: calc(100% - 60px);}
+    100%{right: 10%;}
+}
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: muovi-12-top 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: muovi-12-bottom 2s linear;
+}
