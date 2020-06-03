@@ -24,3 +24,12 @@
 .ex-3-square:hover{
     border-radius: 100%;
 }
+
+/* ESERCIZIO 4 */
+.ex-4-square{
+    transition: all 2s;
+}
+
+.ex-4-square:hover{
+    background-color: transparent;
+}
