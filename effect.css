@@ -85,3 +85,15 @@
     filter: sepia(0.5) grayscale(0.5);
     transform: scale(1.5);
 }
+
+/* ESERCIZIO 10 */
+@keyframes gira {
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+.ex-10-icon {
+    animation: gira 1s linear infinite;
+}
+
